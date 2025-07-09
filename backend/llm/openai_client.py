@@ -1,8 +1,3 @@
-"""
-Azure OpenAI LLM client for OMANI Therapist Voice Solution.
-Specialized for Arabic therapeutic conversations using GPT-4o.
-"""
-
 import os
 import asyncio
 import logging
