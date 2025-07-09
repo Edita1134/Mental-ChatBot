@@ -1,0 +1,93 @@
+# NPM Package Requirements for OMANI Therapist React UI
+# =====================================================
+
+# This file lists all npm packages and their versions required for the React frontend
+# These are already defined in package.json, but listed here for reference
+
+# Core React Dependencies
+# ======================
+react@^18.2.0
+react-dom@^18.2.0
+react-scripts@5.0.1
+typescript@^5.2.2
+
+# Material-UI (MUI) Dependencies
+# ==============================
+@mui/material@^5.14.17
+@mui/icons-material@^5.14.16
+@mui/system@^5.14.17
+@emotion/react@^11.11.1
+@emotion/styled@^11.11.0
+
+# Routing
+# =======
+react-router-dom@^6.18.0
+
+# HTTP Client
+# ===========
+axios@^1.6.0
+
+# File Handling
+# =============
+file-saver@^2.0.5
+
+# Type Definitions
+# ===============
+@types/react@^18.2.37
+@types/react-dom@^18.2.15
+@types/node@^20.8.9
+@types/file-saver@^2.0.7
+
+# Performance & Monitoring
+# ========================
+web-vitals@^3.5.0
+
+# Development Dependencies (Optional)
+# ==================================
+@types/jest@^29.5.8
+@testing-library/react@^13.4.0
+@testing-library/jest-dom@^5.16.5
+@testing-library/user-event@^14.5.1
+prettier@^3.0.3
+eslint@^8.53.0
+eslint-plugin-react@^7.33.2
+eslint-plugin-react-hooks@^4.6.0
+
+# Installation Commands
+# ====================
+
+# Install all dependencies:
+npm install
+
+# Install specific packages (if needed individually):
+npm install react react-dom
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm install axios
+npm install react-router-dom
+npm install typescript
+npm install @types/react @types/react-dom @types/node
+
+# Development server:
+npm start
+
+# Build for production:
+npm run build
+
+# Run tests:
+npm test
+
+# Package Scripts Available
+# =========================
+# npm start          - Start development server
+# npm run build      - Build for production
+# npm test           - Run tests
+# npm run eject      - Eject from Create React App (not recommended)
+
+# Browser Requirements
+# ===================
+# Modern browser with JavaScript enabled
+# Support for ES6+ features
+# WebRTC support for audio recording
+# Local storage support
+# Fetch API support
