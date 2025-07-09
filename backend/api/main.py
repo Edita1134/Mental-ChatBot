@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-"""
-FastAPI backend for OMANI Therapist React UI
-"""
 import os
 import sys
 import random
