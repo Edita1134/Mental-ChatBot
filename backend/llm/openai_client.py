@@ -9,11 +9,7 @@ from datetime import datetime
 logger = logging.getLogger(__name__)
 
 class AzureOmaniTherapistLLM:
-    """
-    Azure OpenAI-based therapeutic LLM for Omani culture.
-    Uses GPT-4o for culturally-aware mental health support.
-    """
-    
+
     def __init__(self):
         """Initialize the Azure OpenAI LLM client."""
         try:
