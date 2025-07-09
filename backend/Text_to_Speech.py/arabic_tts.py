@@ -1,7 +1,3 @@
-"""
-Text-to-Speech module for Arabic language synthesis.
-Optimized for Omani dialect and therapeutic conversations.
-"""
 
 import logging
 import tempfile
@@ -27,10 +23,7 @@ except ImportError:
 logger = logging.getLogger(__name__)
 
 class OmaniTTS:
-    """
-    Arabic Text-to-Speech synthesizer for therapeutic conversations.
-    Supports multiple TTS engines with fallback options.
-    """
+   
     
     def __init__(self, engine: str = "auto"):
         """
