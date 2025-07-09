@@ -24,10 +24,7 @@ class CrisisLevel(Enum):
     CRITICAL = "critical"
 
 class CrisisDetectionSystem:
-    """
-    Comprehensive crisis detection system for Arabic mental health conversations.
-    Monitors for suicidal ideation, self-harm, and other mental health emergencies.
-    """
+ 
     
     def __init__(self):
         """Initialize the crisis detection system."""
