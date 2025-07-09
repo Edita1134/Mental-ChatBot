@@ -25,10 +25,6 @@ transformers==4.36.0
 huggingface-hub==0.19.4
 sentence-transformers==2.2.2
 
-# Database and storage
-sqlalchemy==2.0.23
-alembic==1.13.0
-aiosqlite==0.19.0
 
 # HTTP and networking
 httpx==0.25.2
