@@ -13,11 +13,7 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 class OmaniSTT:
-    """
-    Omani Speech-to-Text processor using Gemini or Groq API.
-    Specialized for Arabic and Omani dialect recognition.
-    """
-    
+   
     def __init__(self, provider: str = "gemini", api_key: str = None, model_name: str = None):
         """
         Initialize the STT engine with API provider.
